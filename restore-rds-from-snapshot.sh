@@ -1,7 +1,7 @@
 #!/bin/bash
 DATE=`date -u +%Y%m%d`
-SNAPID="uipl-rds-snptest-db-snapshot-$DATE"
-DBID="uipl-rds-snptest-db"
+SNAPID="xxxxxxxxxxxxxxx"
+DBID="xxxxxxxxxxxxxxxxx"
 
 #config groups
 SECURITYGROUP="RDS-TESTING-SNAPSHOT-SG"
@@ -9,7 +9,7 @@ PARAMSGROUP="rds-snpshot-test-pg-56"
 SUBNETGROUP="rds-subnet-group"
 
 #AWS Command
-CMD="aws --profile umbrella-inr";
+CMD="aws --profile xxxxxxxxxxxx";
 
 #rds verifying commands
 SNAPSHOT_AVAILABILITY="rds-describe-db-snapshots | grep -i $SNAPID | grep available | wc -l"
@@ -34,8 +34,8 @@ rds-delete-db-instance  $DBID  --skip-final-snapshot -f
 
 #!/bin/bash
 DATE=`date -u --date=yesterday +%Y%m%d`
-SNAPID="uipl-rds-snptest-db-snapshot-$DATE"
-DBID="uipl-rds-snptest-db"
+SNAPID="xxxxxxxxxxxxxx"
+DBID="xxxxxxxxxx"
 
 #config groups
 SECURITYGROUP="RDS-TESTING-SNAPSHOT-SG"

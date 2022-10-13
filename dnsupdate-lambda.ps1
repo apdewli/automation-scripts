@@ -6,7 +6,7 @@
 $InstanceID = $instanceid
 
 $Region = "ap-south-1"
-$profile = "uipl-internal"
+$profile = "xxxxxxxxxxxxxxx"
 
 $dnsServerId = "$dnsserverid"
 $hostName = (Get-EC2Instance -Region $region -ProfileName $profile -InstanceId $InstanceID ).Instances | ?{$_.InstanceId -eq $instanceId} | select -ExpandProperty tag | ?{$_.Key -eq "Name"} | select -ExpandProperty value

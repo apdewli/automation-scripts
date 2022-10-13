@@ -13,10 +13,10 @@ param(
 
 # Set Variables
 
-$appsecuritygroup = "sg-0fdc3de7dcebc6ee3"
-$dbsecuritygroup = "sg-039601687533875f4"
-$snstopicarn = "arn:aws:sns:ap-southeast-1:391897533456:OS-BASE-DR-VPC-STACK-SnsTopic-1LQXOAJ62XSFY"
-$vpcstackname = "OS-BASE-DR-VPC-STACK"
+$appsecuritygroup = "sg-xxxxxxxxxxxxxxxxx"
+$dbsecuritygroup = "sg-xxxxxxxxxxxx"
+$snstopicarn = "arn:aws:sns:ap-southeast-1:xxxxxxxxxxxxxxxx:xxxxxxxxxxxxxx"
+$vpcstackname = "xxxxxxxxxxxxxx"
 $errorFile = "stack-error.log"
 
 $stackURL = "https://s3.ap-south-1.amazonaws.com/os-base-cf-templates/BASEINT3.json"

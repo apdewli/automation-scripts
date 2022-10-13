@@ -13,13 +13,13 @@ param(
 
 # Set Variables
 
-$appsecuritygroup = "sg-0fdc3de7dcebc6ee3"
-$dbsecuritygroup = "sg-039601687533875f4"
-$snstopicarn = "arn:aws:sns:ap-southeast-1:391897533456:OS-BASE-DR-VPC-STACK-SnsTopic-1LQXOAJ62XSFY"
-$vpcstackname = "OS-BASE-DR-VPC-STACK"
+$appsecuritygroup = "sg-xxxxxxxxxxxx"
+$dbsecuritygroup = "sg-xxxxxxxxx"
+$snstopicarn = "arn:aws:sns:ap-southeast-1:xxxxxxxxxxxx:xxxxxxxxxxxxxxxxxxxx"
+$vpcstackname = "xxxxxxxxxxxxxxxx"
 $errorFile = "stack-error.log"
 
-$stackURL = "https://s3.ap-south-1.amazonaws.com/os-base-cf-templates/BASEINT3.json"
+$stackURL = "https://s3.ap-south-1.amazonaws.com/xxxxxxxxxxx/BASEINT3.json"
 
 $dbamiparameter = $dbaminame+"-DB-AMI"
 $appamiparameter = $appaminame+"-APP-AMI"
